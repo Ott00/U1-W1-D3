@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&display=swap');
+
+body{
+    margin: 0;
+    color: rgb(51 51 51);
+    font-family: 'Amiri', serif;
+}
+
+h3{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid rgb(196 243 242) ;
+}
+
+.logo-container{
+    width: 150px;
+    margin-top: 0.8rem;
+    margin-inline: auto;
+}
+
+.logo-container img{
+   width: 100%;
+}
+
+header p{
+    width: 100%;
+    text-align: center;
+    background-color: rgb(253 251 241);
+    border-top: 1px solid rgb(255 220 131);
+    padding: 20px 0;
+    color: rgb(0 77 76);
+}
+
+header p span{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.main-section{
+    width: 60%;
+    margin-inline: auto;
+}
+
+.main-section h1{
+    text-align: center;
+}
+
+.main-section .recipe-img{
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 2px 2px 8px -3px black;
+}
+
+.main-section .img-desc{
+    display: block;
+    padding-top: 10px;
+    text-align: center;
+    color: rgb(153 153 153);
+}
+
+.featured{
+    width: 100%;
+    border-left: 1px solid rgb(255 220 131);
+    padding-left: 15px;
+    margin-top: 20px;
+}
+
+.featured span{
+    display: block;
+    color: rgb(181 70 15);
+    text-transform: uppercase;
+}
+
+.recipe-info-block li{
+    font-size: 0.9rem;
+}
+
+.recipe-info-block .ol-title{
+    display: block;
+    padding-bottom: 10px;
+}
